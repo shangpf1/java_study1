@@ -11,6 +11,7 @@ public class Student {
 		System.out.println("学生正在玩耍");;
 	}
 	
+	// 无void 需要返回值
 	public String eat(){
 		return "学生正在吃饭";
 	}
