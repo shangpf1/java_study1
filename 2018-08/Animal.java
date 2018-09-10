@@ -1,6 +1,9 @@
 package lianxi;
 
 public class Animal {
+
+	// 基本数据类型作为参数，直接操作
+	// 引用类型作为参数，操作的是引用指向的堆内存中的对象
 	
 	String name;
 	String skin;  //肤色
