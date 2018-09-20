@@ -4,7 +4,7 @@ package practise;
 
 
 /**
- * 接口概述：abstrat class 抽象类的修饰符      interface 接口的修饰符
+ * 1.接口概述：abstrat class 抽象类的修饰符      interface 接口的修饰符
  * extends 只能是一个     implements 可以多个
  * 接口只有抽象方法，它比抽象类还要抽象，接口是彻彻底底的抽象！
  * 接口是抽象方法和常量的属性集合
@@ -16,8 +16,27 @@ package practise;
  *        public static final int i = 1; （共有的、静态的和最终的字段）
  */
 
-public interface Test {
 
-
-
-}
+ /*
+ * 2.接口的实现
+ *   class 类名 implements 接口1,接口2,接口3{
+ *          方法1（）{
+ *          
+ *          }
+ *          方法2（）{
+ *          
+ *          }
+ *          ......................      
+ *   }
+ *   
+ *   接口实现的注意事项：
+ *     1.为接口中所有的方法提供具体的实现
+ *     2.必须遵守重写的所有规则。
+ *       重写的规则：
+ *              1.子类的重写方法不能抛出更大的异常。
+ *              2.子类的重写方法不能有更小的访问范围。
+ *              父类：public void test();
+ *              子类：public void test(); 对的
+ *                    protect void test(); 错的
+ *    3.保持相同的返回类型。
+ * */
